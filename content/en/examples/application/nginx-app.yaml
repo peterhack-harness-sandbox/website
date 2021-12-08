@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.14.2
+        image: newrelic/k8s-nri-nginx:latest
         ports:
         - containerPort: 80
